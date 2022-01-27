@@ -66,14 +66,14 @@ You will create a simple R function that generates Y according to linear model w
 
 ## Grading
 
-* version control/commit practices (40%)
+* version control/commit practices (50%)
   - name change and screenshots commits 
   - clarity, logic and frequency of all other commits
 
-* code style/comments (10%)
+* code style/comments (25%)
   - adherence with good R style and frequent, clear comments
 
-* correctness (50%)
+* correctness (25%)
   - your function is correct
 
 
