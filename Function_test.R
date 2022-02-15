@@ -12,9 +12,10 @@
 # seed  - starting seed value
 generateY <- function(X, beta, sigma, seed = 5832652){
   set.seed(seed)
-  # Return Y
-  return(Y)
+  epsilon = rnorm(length(beta),sd = sigma^2)
+
 }
+?rnorm
 
 generateY(4,1,5,seed = 5832652)
 
