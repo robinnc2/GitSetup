@@ -11,11 +11,10 @@
 # sigma - standard deviation of the noise
 # seed  - starting seed value
 generateY <- function(X, beta, sigma, seed = 5832652){
-  set.seed
-  
-  
+  set.seed(seed)
   # Return Y
   return(Y)
 }
 
+generateY(4,1,5,seed = 5832652)
 
