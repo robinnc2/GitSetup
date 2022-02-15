@@ -13,9 +13,12 @@
 generateY <- function(X, beta, sigma, seed = 5832652){
   set.seed(seed)
   epsilon = rnorm(length(beta),sd = sigma^2)
+  Y = X*beta + epsilon
+  #return Y
+  return(Y)
 
 }
-?rnorm
+
 
 generateY(4,1,5,seed = 5832652)
 
