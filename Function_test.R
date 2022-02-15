@@ -20,5 +20,4 @@ generateY <- function(X, beta, sigma, seed = 5832652){
 }
 
 
-generateY(4,1,5,seed = 5832652)
 
